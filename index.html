@@ -1,13 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <title>TailWind CSS Project</title>
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="container min-h-screen bg-neutral-800 text-white px-20 py-5">
+    <div class="shadow p-5">
+      <nav class="flex items-center shadow-slate-300">
+        <img class="w-16 h-16 cursor-pointer"
+          src="https://imgs.search.brave.com/C9qptyU5gGqePqh4MIC5NhRrxuXO-pDwFcyaMLzIacQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpZ2l0YWxhZ2Vu/Y3kuY29tLmF1L3dw/LWNvbnRlbnQvdXBs/b2Fkcy9GYWNlYm9v/ay1sb2dvLWJsdWUt/Y2lyY2xlLWxhcmdl/LXdoaXRlLWYucG5n">
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5"><a href="#" class="px-2 text-xl">Home</a></li>
+          <li class="list-none inline-block px-5"><a href="#" class="px-2 text-xl">Contact</a></li>
+          <li class="list-none inline-block px-5"><a href="#" class="px-2 text-xl">About Us</a></li>
+        </ul>
+        <button class="text-xl">Log In</button>
+      </nav>
+    </div>
+    <!-- Main section -->
+    <div class="my-5">
+      <h1 class="text-6xl font-bold leading-normal">Food Shop <br> Where foodie meets fooder</h1>
+      <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio itaque quia ut. Sint quis ut corporis natus
+        labore vel sapiente reiciendis, ipsum asperiores necessitatibus velit est illum accusamus voluptates eveniet.
+      </p>
+    </div>
+
+    <div class="mt-12">
+      <a href="" class="bg-slate-200 rounded-3xl py-3 px-5 text-stone-950 font-medium mr-5">Order Now</a>
+      <a href="" class="bg-sky-300 rounded-3xl py-3 px-5 text-stone-950 font-medium mx-5 hover:bg-sky-700">Get Started</a>
+    </div>
+  </div>
 </body>
+
 </html>
